@@ -1,0 +1,49 @@
+
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's on top of everything else */
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+  }
+  
+  .anime-character {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .anime-character img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px; /* Optional: Rounded corners */
+    opacity: 0.8; /* Adjust opacity as needed */
+    object-fit: cover;
+  }
+  
+  .count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #ffffff; /* White text color */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better readability */
+  }
+  

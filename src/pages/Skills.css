@@ -1,0 +1,46 @@
+/* src/pages/Skills.css */
+.skills-page {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #1e1e1e; /* Dark background for cards */
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+    text-align: left;
+  }
+  
+  .card ul li {
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer a {
+    color: #e0e0e0;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

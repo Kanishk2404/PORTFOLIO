@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1e1e1e; /* Dark background for header */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #e0e0e0; /* Light text color */
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  

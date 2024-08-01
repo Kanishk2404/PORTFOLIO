@@ -46,7 +46,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
   </div>
         <div className="photo-container">
           <img 
-            src="/src/assets/porfile.jpg" 
+            src="/src/porfile.jpg" 
             alt="Your Name" 
             className="profile-photo" 
           />
@@ -99,7 +99,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
         <div className="certifications-container">
           <div className="certification">
             <img 
-              src="/src/assets/cyber.png" 
+              src="/src/cyber.png" 
               alt="Certification 1" 
               className="certification-image" 
             />
@@ -122,7 +122,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
           </div>
           <div className="certification">
             <img 
-              src="/src/assets/SEO.png" 
+              src="src/SEO.png" 
               alt="Certification 2" 
               className="certification-image" 
             />
@@ -136,7 +136,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
           </div>
           <div className="certification">
             <img 
-              src="src/assets/PYTHON.png" 
+              src="src/PYTHON.png" 
               alt="Certification 3" 
               className="certification-image" 
             />

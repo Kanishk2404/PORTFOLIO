@@ -15,6 +15,8 @@ const Contact = () => {
     phone: '',
   });
 
+  const [submissionStatus, setSubmissionStatus] = useState(''); // For showing success or error messages
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -38,11 +40,35 @@ const Contact = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    
     if (!errors.email && !errors.phone) {
-      // Handle form submission logic
-      console.log(formData);
+      try {
+        const response = await fetch('http://localhost:3001/send', { // Replace with your backend endpoint
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+
+        if (response.ok) {
+          setSubmissionStatus('Message sent successfully!');
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            subject: '',
+            message: '',
+          }); // Clear form data
+        } else {
+          setSubmissionStatus('Failed to send message.');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        setSubmissionStatus('Error occurred while sending message.');
+      }
     }
   };
 
@@ -125,6 +151,7 @@ const Contact = () => {
             <button type="submit">Send</button>
           </div>
         </div>
+        {submissionStatus && <div className="submission-status">{submissionStatus}</div>}
       </form>
     </div>
   );

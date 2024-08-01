@@ -18,4 +18,36 @@
   .footer a:hover {
     text-decoration: underline;
   }
-  
+  /* src/components/Footer.css */
+.footer {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.footer a {
+  color: #e0e0e0;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .footer {
+    padding: 0.5rem 0; /* Adjust padding for smaller screens */
+  }
+
+  .footer a {
+    display: block; /* Stack links vertically on small screens */
+    margin: 0.25rem 0; /* Adjust margin for vertical spacing */
+  }
+}

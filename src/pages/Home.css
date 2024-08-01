@@ -493,5 +493,23 @@ section h2 {
 .project-summary:nth-child(even) {
   animation: slideInRight 0.5s ease-in-out forwards;
 }
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center text alignment */
+  }
 
+  .photo-container {
+    order: -1; /* Move the photo container to the top */
+    margin-bottom: 20px; /* Add space below the photo */
+    width: 100%; /* Ensure the photo container takes full width on mobile */
+  }
+
+  .profile-photo {
+    width: 150px; /* Adjust width for better mobile display */
+    height: 150px; /* Adjust height for better mobile display */
+  }
+}
 

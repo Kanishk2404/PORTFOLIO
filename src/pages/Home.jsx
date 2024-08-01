@@ -99,7 +99,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
         <div className="certifications-container">
           <div className="certification">
             <img 
-              src="/src/cyber.png" 
+              src="https://media.licdn.com/dms/image/D5622AQEtUQfCeXa9SA/feedshare-shrink_800/0/1721070774807?e=1725494400&v=beta&t=B0kJW3KdhLMWZ-uAutROJvOyYwIJ8HtCO9EPjdKu3GQ" 
               alt="Certification 1" 
               className="certification-image" 
             />

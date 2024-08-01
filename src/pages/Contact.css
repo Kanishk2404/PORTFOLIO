@@ -1,11 +1,15 @@
+/* src/pages/Contact.css */
+
 .contact-container {
   padding: 20px;
   background-color: #1a1a1a; /* Dark background */
   color: #ffffff; /* White text */
-  max-width: 50%; /* Cover half of the page */
+  max-width: 90%; /* Adjusted for better responsiveness */
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-bottom: 80px; /* Ensure space for footer */
 }
 
 .contact-container h2 {
@@ -73,4 +77,17 @@
   color: red;
   font-size: 0.875rem;
   margin-top: 5px;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 600px) {
+  .contact-container {
+    max-width: 100%; /* Full width on small screens */
+    margin-bottom: 120px; /* More space for footer */
+  }
+
+  .form-group button {
+    font-size: 0.875rem; /* Slightly smaller button text */
+    padding: 12px; /* Larger button padding */
+  }
 }

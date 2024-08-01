@@ -29,3 +29,53 @@
     text-decoration: underline;
   }
   
+  /* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e1e; /* Dark background for header */
+  color: #e0e0e0; /* Light text color */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #e0e0e0; /* Light text color */
+}
+
+.header-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e0e0e0; /* Light text color */
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .header-right {
+    width: 100%; /* Make the right side span the full width */
+    justify-content: space-around; /* Distribute items evenly */
+    margin-top: 0.5rem; /* Add spacing above the right section */
+  }
+
+  .nav-link {
+    font-size: 0.875rem; /* Reduce font size for smaller screens */
+  }
+}

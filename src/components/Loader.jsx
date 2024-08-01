@@ -20,7 +20,7 @@ const Loader = () => {
   return (
     <div className="loader-overlay">
       <div className="loader-content">
-        <img src="/src/Loader_pic.jpeg" alt="Loading..." className="anime-character" />
+        <img src="https://64.media.tumblr.com/a4e6d07f4a448b3eb92585463baef425/68c9f2d62f7474c7-95/s1280x1920/8aa56dfca2eb93ef9159898a215b1dbc5b2ba135.jpg" alt="Loading..." className="anime-character" />
         <div className="count">{count}%</div>
       </div>
     </div>

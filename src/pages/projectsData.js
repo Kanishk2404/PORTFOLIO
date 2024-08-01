@@ -8,7 +8,7 @@ const projects = [
       roles: 'I was responsible for the entire lifecycle of the project, including website development, optimization, community building, and promotional strategies. I also handled content creation and monetization strategies, managed a team of 15 admins and 6 core admins.',
 
       skills: ['WordPress, HTML, CSS, SEO, and AdSense, Team Management, Leading'],
-      image: '/src/anicafe_project.jpeg',
+      image: 'https://media.licdn.com/dms/image/D5622AQEwvmxgpC5UPw/feedshare-shrink_1280/0/1714640192870?e=1725494400&v=beta&t=EQfU_a7ls4dLlWUr8T3OovCrcaQNRkahNZ4rS3bXEfc',
       link: 'https://anicafe.xyz/',
     },
     
@@ -18,7 +18,7 @@ const projects = [
       title: 'Internship at Endearing private studios ltd',
       description: 'Started my cyber security internship. Indulged myself in hardware security, then onto the encryption of algorithms and using AWS KMS, using KMS is still going on.Managing the SEO team, Gonna add this in new project once this is completed',
       skills: ['Hardware Security, Cryptography, Python, AWS, SEO'],
-      image: '/src/intern.jpeg',
+      image: 'https://media.licdn.com/dms/image/D5622AQEIoVP5kMKeBQ/feedshare-shrink_1280/0/1721377746425?e=1725494400&v=beta&t=2GCLXgjw7IcDPOUhn7GNhheUIJBh94aFidwpCqKlIfc',
       link: 'https://github.com/Kanishk2404/Restaurant.github.io',
     },
     
@@ -28,7 +28,7 @@ const projects = [
       title: 'Restaurant Website',
       description: 'Built a chaska restaurant website, comprising of home, menu, offers, contact us and book in my first year of college as a project.',
       skills: ['HTML', 'CSS', 'JS'],
-      image: '/src/chaska.jpg',
+      image: 'https://content.jdmagicbox.com/comp/delhi/n4/011pxx11.xx11.211008173104.f1n4/catalogue/chaska-restaurant-kalkaji-delhi-restaurants-7g7o5lra0s.jpg',
       link: 'https://github.com/Kanishk2404/Restaurant.github.io',
     },
 

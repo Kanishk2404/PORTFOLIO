@@ -99,7 +99,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
         <div className="certifications-container">
           <div className="certification">
             <img 
-              src="https://media.licdn.com/dms/image/D5622AQEtUQfCeXa9SA/feedshare-shrink_800/0/1721070774807?e=1725494400&v=beta&t=B0kJW3KdhLMWZ-uAutROJvOyYwIJ8HtCO9EPjdKu3GQ" 
+              src="src/cyber.png" 
               alt="Certification 1" 
               className="certification-image" 
             />
@@ -166,7 +166,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
       <section id="resume" className="resume-section">
         <h2>Resume</h2>
         <a 
-          href="/src/assets/KanishkSaraswat-updated.pdf" 
+          href="src/Kanishk's CV.pdf " 
           download 
           className="resume-link"
         >

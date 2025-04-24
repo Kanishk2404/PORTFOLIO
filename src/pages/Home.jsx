@@ -46,7 +46,8 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
   </div>
         <div className="photo-container">
           <img 
-            src="/src/porfile.jpg" 
+            src = " src/porfile.jpg"
+            // src="https://media.licdn.com/dms/image/D5603AQEH3QpnKi7Mow/profile-displayphoto-shrink_400_400/0/1721387732693?e=1727913600&v=beta&t=58AMVsQqNZjjqA8u_NI8UNEnd9DCtKbLci2g1EvVMLM" 
             alt="Your Name" 
             className="profile-photo" 
           />
@@ -99,7 +100,8 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
         <div className="certifications-container">
           <div className="certification">
             <img 
-              src="src/cyber.png" 
+              src="src/cyber.png"
+              // src="https://media.licdn.com/dms/image/D5622AQGHTTEKZ0o0hg/feedshare-shrink_800/0/1721070775578?e=1725494400&v=beta&t=o4AEcAWdOFF1WtHllnqA0nQhWKNxva64uBSknaqhYrw" 
               alt="Certification 1" 
               className="certification-image" 
             />
@@ -122,7 +124,8 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
           </div>
           <div className="certification">
             <img 
-              src="src/SEO.png" 
+              src = "src/SEO.png"
+         // src="https://udemy-certificate.s3.amazonaws.com/image/UC-d4d4bf3f-3fbf-4482-9c2e-9df0ed538601.jpg?v=1688419257000" 
               alt="Certification 2" 
               className="certification-image" 
             />
@@ -136,7 +139,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
           </div>
           <div className="certification">
             <img 
-              src="src/PYTHON.png" 
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Y9TQT5KS4EM6/CERTIFICATE_LANDING_PAGE~Y9TQT5KS4EM6.jpeg" 
               alt="Certification 3" 
               className="certification-image" 
             />
